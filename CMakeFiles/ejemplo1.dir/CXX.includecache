@@ -6,27 +6,43 @@
 
 #IncludeRegexTransform: 
 
-/home/ronniejd/robotica/ejemplo1/ejemplo1.cpp
+/home/rooniejd/robotica/robo1/ejemplo1.cpp
 ejemplo1.h
-/home/ronniejd/robotica/ejemplo1/ejemplo1.h
+/home/rooniejd/robotica/robo1/ejemplo1.h
 
-/home/ronniejd/robotica/ejemplo1/ejemplo1.h
+/home/rooniejd/robotica/robo1/ejemplo1.h
 QtGui
 -
 ui_counterDlg.h
-/home/ronniejd/robotica/ejemplo1/ui_counterDlg.h
+/home/rooniejd/robotica/robo1/ui_counterDlg.h
+unistd.h
+-
+myThreads.h
+/home/rooniejd/robotica/robo1/myThreads.h
 
-/home/ronniejd/robotica/ejemplo1/main.cpp
+/home/rooniejd/robotica/robo1/main.cpp
 QtGui/QApplication
 -
 ejemplo1.h
-/home/ronniejd/robotica/ejemplo1/ejemplo1.h
+/home/rooniejd/robotica/robo1/ejemplo1.h
 
-/home/ronniejd/robotica/ejemplo1/moc_ejemplo1.cxx
+/home/rooniejd/robotica/robo1/moc_ejemplo1.cxx
 ejemplo1.h
-/home/ronniejd/robotica/ejemplo1/ejemplo1.h
+/home/rooniejd/robotica/robo1/ejemplo1.h
 
-/home/ronniejd/robotica/ejemplo1/ui_counterDlg.h
+/home/rooniejd/robotica/robo1/moc_myThreads.cxx
+myThreads.h
+/home/rooniejd/robotica/robo1/myThreads.h
+
+/home/rooniejd/robotica/robo1/myThreads.cpp
+myThreads.h
+/home/rooniejd/robotica/robo1/myThreads.h
+
+/home/rooniejd/robotica/robo1/myThreads.h
+QtGui
+-
+
+/home/rooniejd/robotica/robo1/ui_counterDlg.h
 QtCore/QVariant
 -
 QtGui/QAction

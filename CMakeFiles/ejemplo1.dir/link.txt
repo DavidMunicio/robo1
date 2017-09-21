@@ -1,1 +1,1 @@
-/usr/bin/c++      CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o CMakeFiles/ejemplo1.dir/main.cpp.o CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o  -o ejemplo1 -rdynamic -lQtCore -lQtGui 
+/usr/bin/c++      CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o CMakeFiles/ejemplo1.dir/main.cpp.o CMakeFiles/ejemplo1.dir/myThreads.cpp.o CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o  -o ejemplo1 -rdynamic /usr/lib/i386-linux-gnu/libQtCore.so /usr/lib/i386-linux-gnu/libQtGui.so -Wl,-rpath,/usr/lib/i386-linux-gnu 

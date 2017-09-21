@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ronniejd/robotica/ejemplo1
+CMAKE_SOURCE_DIR = /home/rooniejd/robotica/robo1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ronniejd/robotica/ejemplo1
+CMAKE_BINARY_DIR = /home/rooniejd/robotica/robo1
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,17 +78,6 @@ list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -99,17 +88,6 @@ install/local: preinstall
 install/local/fast: install/local
 
 .PHONY : install/local/fast
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-
-.PHONY : install/strip/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -122,11 +100,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ronniejd/robotica/ejemplo1/CMakeFiles /home/ronniejd/robotica/ejemplo1/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rooniejd/robotica/robo1/CMakeFiles /home/rooniejd/robotica/robo1/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ronniejd/robotica/ejemplo1/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rooniejd/robotica/robo1/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -166,6 +155,11 @@ ejemplo1: cmake_check_build_system
 ejemplo1/fast:
 	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/build
 .PHONY : ejemplo1/fast
+
+# Manual pre-install relink rule for target.
+ejemplo1/preinstall:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/preinstall
+.PHONY : ejemplo1/preinstall
 
 ejemplo1.o: ejemplo1.cpp.o
 
@@ -248,6 +242,60 @@ moc_ejemplo1.cxx.s:
 	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.s
 .PHONY : moc_ejemplo1.cxx.s
 
+moc_myThreads.o: moc_myThreads.cxx.o
+
+.PHONY : moc_myThreads.o
+
+# target to build an object file
+moc_myThreads.cxx.o:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o
+.PHONY : moc_myThreads.cxx.o
+
+moc_myThreads.i: moc_myThreads.cxx.i
+
+.PHONY : moc_myThreads.i
+
+# target to preprocess a source file
+moc_myThreads.cxx.i:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.i
+.PHONY : moc_myThreads.cxx.i
+
+moc_myThreads.s: moc_myThreads.cxx.s
+
+.PHONY : moc_myThreads.s
+
+# target to generate assembly for a file
+moc_myThreads.cxx.s:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.s
+.PHONY : moc_myThreads.cxx.s
+
+myThreads.o: myThreads.cpp.o
+
+.PHONY : myThreads.o
+
+# target to build an object file
+myThreads.cpp.o:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/myThreads.cpp.o
+.PHONY : myThreads.cpp.o
+
+myThreads.i: myThreads.cpp.i
+
+.PHONY : myThreads.i
+
+# target to preprocess a source file
+myThreads.cpp.i:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/myThreads.cpp.i
+.PHONY : myThreads.cpp.i
+
+myThreads.s: myThreads.cpp.s
+
+.PHONY : myThreads.s
+
+# target to generate assembly for a file
+myThreads.cpp.s:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/myThreads.cpp.s
+.PHONY : myThreads.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -256,11 +304,10 @@ help:
 	@echo "... depend"
 	@echo "... install"
 	@echo "... list_install_components"
-	@echo "... rebuild_cache"
 	@echo "... ejemplo1"
 	@echo "... install/local"
-	@echo "... install/strip"
 	@echo "... edit_cache"
+	@echo "... rebuild_cache"
 	@echo "... ejemplo1.o"
 	@echo "... ejemplo1.i"
 	@echo "... ejemplo1.s"
@@ -270,6 +317,12 @@ help:
 	@echo "... moc_ejemplo1.o"
 	@echo "... moc_ejemplo1.i"
 	@echo "... moc_ejemplo1.s"
+	@echo "... moc_myThreads.o"
+	@echo "... moc_myThreads.i"
+	@echo "... moc_myThreads.s"
+	@echo "... myThreads.o"
+	@echo "... myThreads.i"
+	@echo "... myThreads.s"
 .PHONY : help
 
 
