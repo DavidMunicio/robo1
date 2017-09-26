@@ -1,18 +1,23 @@
 #include "myThreads.h"
 
-myThreads::myThreads(): QThread() {
-
-}
-
+myThreads::myThreads(): QThread(), Ui_Counter() {}
 myThreads::~myThreads() {}
 
-void myThreads::run() {
+void myThreads::run () {
+  qDebug() << "funcion run() del thread con id " << this->currentThreadId();
+
+  for(int i = 0; i< 3; i++){
+    setPeriod(1);
+    emit mysignal();
+  }
   
-  qDebug() << "Hola desde la funcion start() del thread con id " << this->currentThreadId();
-  //emit y connect
-  emit mysignal();
 }
 
-void myThreads::stop() {
-  qDebug() << "Hola desde la funcion stop() del thread con id " << this->currentThreadId();
+void myThreads::pause() {
+
 }
+
+void myThreads::setPeriod(int mili) {
+  sleep(mili);
+}
+

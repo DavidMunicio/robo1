@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rooniejd/robotica/robo1
+CMAKE_SOURCE_DIR = /home/ronniejd/robotica/robo1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rooniejd/robotica/robo1
+CMAKE_BINARY_DIR = /home/ronniejd/robotica/robo1
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -89,17 +89,6 @@ install/local/fast: install/local
 
 .PHONY : install/local/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -111,11 +100,22 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rooniejd/robotica/robo1/CMakeFiles /home/rooniejd/robotica/robo1/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ronniejd/robotica/robo1/CMakeFiles /home/ronniejd/robotica/robo1/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rooniejd/robotica/robo1/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ronniejd/robotica/robo1/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -306,8 +306,8 @@ help:
 	@echo "... list_install_components"
 	@echo "... ejemplo1"
 	@echo "... install/local"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... edit_cache"
 	@echo "... ejemplo1.o"
 	@echo "... ejemplo1.i"
 	@echo "... ejemplo1.s"

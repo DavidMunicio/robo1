@@ -31,15 +31,15 @@ static const uint qt_meta_data_ejemplo1[] = {
 
  // slots: signature, parameters, type, tag, flags
       10,    9,    9,    9, 0x0a,
-      19,    9,    9,    9, 0x0a,
-      34,    9,   30,    9, 0x0a,
+      21,    9,    9,    9, 0x0a,
+      35,    9,    9,    9, 0x0a,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_ejemplo1[] = {
-    "ejemplo1\0\0inicio()\0doButton()\0int\0"
-    "incrementar()\0"
+    "ejemplo1\0\0doButton()\0incrementar()\0"
+    "tick()\0"
 };
 
 void ejemplo1::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
@@ -48,13 +48,13 @@ void ejemplo1::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
         Q_ASSERT(staticMetaObject.cast(_o));
         ejemplo1 *_t = static_cast<ejemplo1 *>(_o);
         switch (_id) {
-        case 0: _t->inicio(); break;
-        case 1: _t->doButton(); break;
-        case 2: { int _r = _t->incrementar();
-            if (_a[0]) *reinterpret_cast< int*>(_a[0]) = _r; }  break;
+        case 0: _t->doButton(); break;
+        case 1: _t->incrementar(); break;
+        case 2: _t->tick(); break;
         default: ;
         }
     }
+    Q_UNUSED(_a);
 }
 
 const QMetaObjectExtraData ejemplo1::staticMetaObjectExtraData = {

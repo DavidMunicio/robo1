@@ -19,7 +19,7 @@
 -I/usr/share/qt4/mkspecs/default
 -I/usr/include/qt4
 -I/usr/include/qt4/QtCore
--I/home/rooniejd/robotica/robo1
+-I/home/ronniejd/robotica/robo1
 -o
-/home/rooniejd/robotica/robo1/moc_ejemplo1.cxx
-/home/rooniejd/robotica/robo1/ejemplo1.h
+/home/ronniejd/robotica/robo1/moc_ejemplo1.cxx
+/home/ronniejd/robotica/robo1/ejemplo1.h

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rooniejd/robotica/robo1
+CMAKE_SOURCE_DIR = /home/ronniejd/robotica/robo1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rooniejd/robotica/robo1
+CMAKE_BINARY_DIR = /home/ronniejd/robotica/robo1
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ejemplo1.dir/depend.make
@@ -59,30 +59,30 @@ include CMakeFiles/ejemplo1.dir/flags.make
 
 moc_ejemplo1.cxx: ejemplo1.h
 moc_ejemplo1.cxx: moc_ejemplo1.cxx_parameters
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rooniejd/robotica/robo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating moc_ejemplo1.cxx"
-	/usr/lib/i386-linux-gnu/qt4/bin/moc @/home/rooniejd/robotica/robo1/moc_ejemplo1.cxx_parameters
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ronniejd/robotica/robo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating moc_ejemplo1.cxx"
+	/usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/ronniejd/robotica/robo1/moc_ejemplo1.cxx_parameters
 
 moc_myThreads.cxx: myThreads.h
 moc_myThreads.cxx: moc_myThreads.cxx_parameters
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rooniejd/robotica/robo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating moc_myThreads.cxx"
-	/usr/lib/i386-linux-gnu/qt4/bin/moc @/home/rooniejd/robotica/robo1/moc_myThreads.cxx_parameters
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ronniejd/robotica/robo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating moc_myThreads.cxx"
+	/usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/ronniejd/robotica/robo1/moc_myThreads.cxx_parameters
 
 ui_counterDlg.h: counterDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rooniejd/robotica/robo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ui_counterDlg.h"
-	/usr/lib/i386-linux-gnu/qt4/bin/uic -o /home/rooniejd/robotica/robo1/ui_counterDlg.h /home/rooniejd/robotica/robo1/counterDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ronniejd/robotica/robo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ui_counterDlg.h"
+	/usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/ronniejd/robotica/robo1/ui_counterDlg.h /home/ronniejd/robotica/robo1/counterDlg.ui
 
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: CMakeFiles/ejemplo1.dir/flags.make
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: ejemplo1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rooniejd/robotica/robo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o -c /home/rooniejd/robotica/robo1/ejemplo1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ronniejd/robotica/robo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o -c /home/ronniejd/robotica/robo1/ejemplo1.cpp
 
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ejemplo1.dir/ejemplo1.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rooniejd/robotica/robo1/ejemplo1.cpp > CMakeFiles/ejemplo1.dir/ejemplo1.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ronniejd/robotica/robo1/ejemplo1.cpp > CMakeFiles/ejemplo1.dir/ejemplo1.cpp.i
 
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ejemplo1.dir/ejemplo1.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rooniejd/robotica/robo1/ejemplo1.cpp -o CMakeFiles/ejemplo1.dir/ejemplo1.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ronniejd/robotica/robo1/ejemplo1.cpp -o CMakeFiles/ejemplo1.dir/ejemplo1.cpp.s
 
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o.requires:
 
@@ -97,16 +97,16 @@ CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o.provides.build: CMakeFiles/ejemplo1.dir/e
 
 CMakeFiles/ejemplo1.dir/main.cpp.o: CMakeFiles/ejemplo1.dir/flags.make
 CMakeFiles/ejemplo1.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rooniejd/robotica/robo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ejemplo1.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/main.cpp.o -c /home/rooniejd/robotica/robo1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ronniejd/robotica/robo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ejemplo1.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/main.cpp.o -c /home/ronniejd/robotica/robo1/main.cpp
 
 CMakeFiles/ejemplo1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ejemplo1.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rooniejd/robotica/robo1/main.cpp > CMakeFiles/ejemplo1.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ronniejd/robotica/robo1/main.cpp > CMakeFiles/ejemplo1.dir/main.cpp.i
 
 CMakeFiles/ejemplo1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ejemplo1.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rooniejd/robotica/robo1/main.cpp -o CMakeFiles/ejemplo1.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ronniejd/robotica/robo1/main.cpp -o CMakeFiles/ejemplo1.dir/main.cpp.s
 
 CMakeFiles/ejemplo1.dir/main.cpp.o.requires:
 
@@ -121,16 +121,16 @@ CMakeFiles/ejemplo1.dir/main.cpp.o.provides.build: CMakeFiles/ejemplo1.dir/main.
 
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: CMakeFiles/ejemplo1.dir/flags.make
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: myThreads.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rooniejd/robotica/robo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ejemplo1.dir/myThreads.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/myThreads.cpp.o -c /home/rooniejd/robotica/robo1/myThreads.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ronniejd/robotica/robo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ejemplo1.dir/myThreads.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/myThreads.cpp.o -c /home/ronniejd/robotica/robo1/myThreads.cpp
 
 CMakeFiles/ejemplo1.dir/myThreads.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ejemplo1.dir/myThreads.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rooniejd/robotica/robo1/myThreads.cpp > CMakeFiles/ejemplo1.dir/myThreads.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ronniejd/robotica/robo1/myThreads.cpp > CMakeFiles/ejemplo1.dir/myThreads.cpp.i
 
 CMakeFiles/ejemplo1.dir/myThreads.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ejemplo1.dir/myThreads.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rooniejd/robotica/robo1/myThreads.cpp -o CMakeFiles/ejemplo1.dir/myThreads.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ronniejd/robotica/robo1/myThreads.cpp -o CMakeFiles/ejemplo1.dir/myThreads.cpp.s
 
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o.requires:
 
@@ -145,16 +145,16 @@ CMakeFiles/ejemplo1.dir/myThreads.cpp.o.provides.build: CMakeFiles/ejemplo1.dir/
 
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: CMakeFiles/ejemplo1.dir/flags.make
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: moc_ejemplo1.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rooniejd/robotica/robo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o -c /home/rooniejd/robotica/robo1/moc_ejemplo1.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ronniejd/robotica/robo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o -c /home/ronniejd/robotica/robo1/moc_ejemplo1.cxx
 
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rooniejd/robotica/robo1/moc_ejemplo1.cxx > CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ronniejd/robotica/robo1/moc_ejemplo1.cxx > CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.i
 
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rooniejd/robotica/robo1/moc_ejemplo1.cxx -o CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ronniejd/robotica/robo1/moc_ejemplo1.cxx -o CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.s
 
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o.requires:
 
@@ -169,16 +169,16 @@ CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o.provides.build: CMakeFiles/ejemplo1.d
 
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: CMakeFiles/ejemplo1.dir/flags.make
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: moc_myThreads.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rooniejd/robotica/robo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o -c /home/rooniejd/robotica/robo1/moc_myThreads.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ronniejd/robotica/robo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o -c /home/ronniejd/robotica/robo1/moc_myThreads.cxx
 
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rooniejd/robotica/robo1/moc_myThreads.cxx > CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ronniejd/robotica/robo1/moc_myThreads.cxx > CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.i
 
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rooniejd/robotica/robo1/moc_myThreads.cxx -o CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ronniejd/robotica/robo1/moc_myThreads.cxx -o CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.s
 
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o.requires:
 
@@ -208,10 +208,10 @@ ejemplo1: CMakeFiles/ejemplo1.dir/myThreads.cpp.o
 ejemplo1: CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o
 ejemplo1: CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o
 ejemplo1: CMakeFiles/ejemplo1.dir/build.make
-ejemplo1: /usr/lib/i386-linux-gnu/libQtCore.so
-ejemplo1: /usr/lib/i386-linux-gnu/libQtGui.so
+ejemplo1: /usr/lib/x86_64-linux-gnu/libQtCore.so
+ejemplo1: /usr/lib/x86_64-linux-gnu/libQtGui.so
 ejemplo1: CMakeFiles/ejemplo1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rooniejd/robotica/robo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ejemplo1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ronniejd/robotica/robo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ejemplo1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ejemplo1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -236,10 +236,10 @@ CMakeFiles/CMakeRelink.dir/ejemplo1: CMakeFiles/ejemplo1.dir/myThreads.cpp.o
 CMakeFiles/CMakeRelink.dir/ejemplo1: CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o
 CMakeFiles/CMakeRelink.dir/ejemplo1: CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o
 CMakeFiles/CMakeRelink.dir/ejemplo1: CMakeFiles/ejemplo1.dir/build.make
-CMakeFiles/CMakeRelink.dir/ejemplo1: /usr/lib/i386-linux-gnu/libQtCore.so
-CMakeFiles/CMakeRelink.dir/ejemplo1: /usr/lib/i386-linux-gnu/libQtGui.so
+CMakeFiles/CMakeRelink.dir/ejemplo1: /usr/lib/x86_64-linux-gnu/libQtCore.so
+CMakeFiles/CMakeRelink.dir/ejemplo1: /usr/lib/x86_64-linux-gnu/libQtGui.so
 CMakeFiles/CMakeRelink.dir/ejemplo1: CMakeFiles/ejemplo1.dir/relink.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rooniejd/robotica/robo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable CMakeFiles/CMakeRelink.dir/ejemplo1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ronniejd/robotica/robo1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable CMakeFiles/CMakeRelink.dir/ejemplo1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ejemplo1.dir/relink.txt --verbose=$(VERBOSE)
 
 # Rule to relink during preinstall.
@@ -262,6 +262,6 @@ CMakeFiles/ejemplo1.dir/clean:
 CMakeFiles/ejemplo1.dir/depend: moc_ejemplo1.cxx
 CMakeFiles/ejemplo1.dir/depend: moc_myThreads.cxx
 CMakeFiles/ejemplo1.dir/depend: ui_counterDlg.h
-	cd /home/rooniejd/robotica/robo1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rooniejd/robotica/robo1 /home/rooniejd/robotica/robo1 /home/rooniejd/robotica/robo1 /home/rooniejd/robotica/robo1 /home/rooniejd/robotica/robo1/CMakeFiles/ejemplo1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ronniejd/robotica/robo1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ronniejd/robotica/robo1 /home/ronniejd/robotica/robo1 /home/ronniejd/robotica/robo1 /home/ronniejd/robotica/robo1 /home/ronniejd/robotica/robo1/CMakeFiles/ejemplo1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ejemplo1.dir/depend
 

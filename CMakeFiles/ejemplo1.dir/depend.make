@@ -189,6 +189,7 @@ CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: /usr/include/qt4/QtGui/QFileDialog
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: /usr/include/qt4/QtGui/QFont
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: /usr/include/qt4/QtGui/QHeaderView
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: /usr/include/qt4/QtGui/QLCDNumber
+CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: /usr/include/qt4/QtGui/QLabel
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: /usr/include/qt4/QtGui/QLayout
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: /usr/include/qt4/QtGui/QMatrix4x4
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: /usr/include/qt4/QtGui/QPalette
@@ -621,6 +622,7 @@ CMakeFiles/ejemplo1.dir/main.cpp.o: /usr/include/qt4/QtGui/QFileDialog
 CMakeFiles/ejemplo1.dir/main.cpp.o: /usr/include/qt4/QtGui/QFont
 CMakeFiles/ejemplo1.dir/main.cpp.o: /usr/include/qt4/QtGui/QHeaderView
 CMakeFiles/ejemplo1.dir/main.cpp.o: /usr/include/qt4/QtGui/QLCDNumber
+CMakeFiles/ejemplo1.dir/main.cpp.o: /usr/include/qt4/QtGui/QLabel
 CMakeFiles/ejemplo1.dir/main.cpp.o: /usr/include/qt4/QtGui/QLayout
 CMakeFiles/ejemplo1.dir/main.cpp.o: /usr/include/qt4/QtGui/QMatrix4x4
 CMakeFiles/ejemplo1.dir/main.cpp.o: /usr/include/qt4/QtGui/QPalette
@@ -1053,6 +1055,7 @@ CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: /usr/include/qt4/QtGui/QFileDialog
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: /usr/include/qt4/QtGui/QFont
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: /usr/include/qt4/QtGui/QHeaderView
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: /usr/include/qt4/QtGui/QLCDNumber
+CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: /usr/include/qt4/QtGui/QLabel
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: /usr/include/qt4/QtGui/QLayout
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: /usr/include/qt4/QtGui/QMatrix4x4
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: /usr/include/qt4/QtGui/QPalette
@@ -1299,6 +1302,7 @@ CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: /usr/include/qt4/QtGui/qwsembedwidge
 
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: moc_myThreads.cxx
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: myThreads.h
+CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: ui_counterDlg.h
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/Qt3Support/q3cstring.h
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/Qt3Support/q3valuelist.h
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtCore/QDate
@@ -1306,6 +1310,7 @@ CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtCore/QList
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtCore/QObject
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtCore/QPoint
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtCore/QPointF
+CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtCore/QVariant
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtCore/QtCore
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtCore/qabstractanimation.h
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtCore/qabstracteventdispatcher.h
@@ -1473,17 +1478,25 @@ CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtCore/qvarlengtha
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtCore/qvector.h
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtCore/qwaitcondition.h
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtCore/qxmlstream.h
+CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtGui/QAction
+CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtGui/QApplication
+CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtGui/QButtonGroup
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtGui/QCleanlooksStyle
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtGui/QCommonStyle
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtGui/QFileDialog
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtGui/QFont
+CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtGui/QHeaderView
+CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtGui/QLCDNumber
+CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtGui/QLabel
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtGui/QLayout
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtGui/QMatrix4x4
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtGui/QPalette
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtGui/QPlatformWindow
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtGui/QPrinter
+CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtGui/QPushButton
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtGui/QTransform
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtGui/QVector3D
+CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtGui/QWidget
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtGui/QtGui
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtGui/qabstractbutton.h
 CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtGui/qabstractitemdelegate.h
@@ -1721,6 +1734,7 @@ CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o: /usr/include/qt4/QtGui/qwsembedwidg
 
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: myThreads.cpp
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: myThreads.h
+CMakeFiles/ejemplo1.dir/myThreads.cpp.o: ui_counterDlg.h
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/Qt3Support/q3cstring.h
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/Qt3Support/q3valuelist.h
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtCore/QDate
@@ -1728,6 +1742,7 @@ CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtCore/QList
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtCore/QObject
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtCore/QPoint
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtCore/QPointF
+CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtCore/QVariant
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtCore/QtCore
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtCore/qabstractanimation.h
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtCore/qabstracteventdispatcher.h
@@ -1895,17 +1910,25 @@ CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtCore/qvarlengtharray
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtCore/qvector.h
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtCore/qwaitcondition.h
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtCore/qxmlstream.h
+CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtGui/QAction
+CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtGui/QApplication
+CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtGui/QButtonGroup
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtGui/QCleanlooksStyle
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtGui/QCommonStyle
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtGui/QFileDialog
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtGui/QFont
+CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtGui/QHeaderView
+CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtGui/QLCDNumber
+CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtGui/QLabel
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtGui/QLayout
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtGui/QMatrix4x4
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtGui/QPalette
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtGui/QPlatformWindow
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtGui/QPrinter
+CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtGui/QPushButton
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtGui/QTransform
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtGui/QVector3D
+CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtGui/QWidget
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtGui/QtGui
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtGui/qabstractbutton.h
 CMakeFiles/ejemplo1.dir/myThreads.cpp.o: /usr/include/qt4/QtGui/qabstractitemdelegate.h

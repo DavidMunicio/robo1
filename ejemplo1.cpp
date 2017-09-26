@@ -2,39 +2,31 @@
 
 
 ejemplo1::ejemplo1(): Ui_Counter() {
-  setupUi(this);
-  show();
+  myThreads t1;
   
-  //QTimer *timer = new QTimer();
-  //connect(button, SIGNAL(clicked()), this, SLOT(doButton()));
-  //connect(timer, SIGNAL(timeout()), this, SLOT(inicio()));
-  //timer->start(1000);
-  //myThreads t1;
+  setupUi(this);
+  show();    
+  
+  connect(&t1, SIGNAL(mysignal()), this, SLOT(incrementar()));
+
+  connect(button, SIGNAL(clicked()), this, SLOT(doButton()));
   
   t1.run();
-  
-  qDebug() << "hola desde el thread en ejemplo.ccp ";
-  
-  connect(t1, SIGNAL(mysignal()), this, SLOT(incrementar()));
-  
-  t1.stop();
 }
 
 ejemplo1::~ejemplo1() {}
 
-void ejemplo1::inicio () {
-  //lcdNumber->display(incrementar());
-  qDebug() << "signal enviada ";
-}
-
 void ejemplo1::doButton() {
-  
-  //lcdNumber->display(incrementar());
-  //qDebug() << "click on button";
- 
+  qDebug() << "doButton ";
 }
 
-int ejemplo1::incrementar() {
+void ejemplo1::incrementar() {
+  qDebug() << "incrementar";
   int n = lcdNumber->intValue();
-  return (n = n+1);
+  n = n+1;
+  lcdNumber->display(n);
+}
+
+void ejemplo1::tick(){
+  
 }

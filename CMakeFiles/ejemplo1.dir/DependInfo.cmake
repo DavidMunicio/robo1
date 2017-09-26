@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/rooniejd/robotica/robo1/ejemplo1.cpp" "/home/rooniejd/robotica/robo1/CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o"
-  "/home/rooniejd/robotica/robo1/main.cpp" "/home/rooniejd/robotica/robo1/CMakeFiles/ejemplo1.dir/main.cpp.o"
-  "/home/rooniejd/robotica/robo1/moc_ejemplo1.cxx" "/home/rooniejd/robotica/robo1/CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o"
-  "/home/rooniejd/robotica/robo1/moc_myThreads.cxx" "/home/rooniejd/robotica/robo1/CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o"
-  "/home/rooniejd/robotica/robo1/myThreads.cpp" "/home/rooniejd/robotica/robo1/CMakeFiles/ejemplo1.dir/myThreads.cpp.o"
+  "/home/ronniejd/robotica/robo1/ejemplo1.cpp" "/home/ronniejd/robotica/robo1/CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o"
+  "/home/ronniejd/robotica/robo1/main.cpp" "/home/ronniejd/robotica/robo1/CMakeFiles/ejemplo1.dir/main.cpp.o"
+  "/home/ronniejd/robotica/robo1/moc_ejemplo1.cxx" "/home/ronniejd/robotica/robo1/CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o"
+  "/home/ronniejd/robotica/robo1/moc_myThreads.cxx" "/home/ronniejd/robotica/robo1/CMakeFiles/ejemplo1.dir/moc_myThreads.cxx.o"
+  "/home/ronniejd/robotica/robo1/myThreads.cpp" "/home/ronniejd/robotica/robo1/CMakeFiles/ejemplo1.dir/myThreads.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

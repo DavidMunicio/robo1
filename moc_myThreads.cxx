@@ -75,6 +75,8 @@ void *myThreads::qt_metacast(const char *_clname)
     if (!_clname) return 0;
     if (!strcmp(_clname, qt_meta_stringdata_myThreads))
         return static_cast<void*>(const_cast< myThreads*>(this));
+    if (!strcmp(_clname, "Ui_Counter"))
+        return static_cast< Ui_Counter*>(const_cast< myThreads*>(this));
     return QThread::qt_metacast(_clname);
 }
 
